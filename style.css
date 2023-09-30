@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.canvas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  height: 100%;
+  width: 100%;
+  font-family: "general sans regular";
+  cursor: pointer;
+}
+
+#grey {
+  border: 2px solid black;
+  height: 10vw;
+  width: 7vw;
+  background-color: grey;
+  box-shadow: inset;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#green {
+  border: 2px solid black;
+  height: 20vw;
+  width: 7vw;
+  background-color: green;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#crimson {
+  border: 2px solid black;
+  height: 30vw;
+  width: 7vw;
+  background-color: crimson;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#bisque {
+  border: 2px solid black;
+  height: 20vw;
+  width: 7vw;
+  background-color: bisque;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#purple {
+  border: 2px solid black;
+  height: 10vw;
+  width: 7vw;
+  background-color: purple;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.canvas h1 {
+  margin-left: 5vw;
+}
